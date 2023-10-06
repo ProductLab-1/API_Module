@@ -50,6 +50,7 @@ Enough reading! Time to make some stuff!
             * Screenshots of queries you made to your DB in Postman (include at least one example of GET, POST and DELETE)
 
     * Challenge Option: [Build a full stack GraphQL solution](https://www.howtographql.com/graphql-js/0-introduction/)
+        * **This is a challenge but its very do-able and you will feel very cool after you finish**
         * This tutorial will walk you through how to setup graphQL APIs by building your own server. You'll also have the opportunity to spin up a database and connect it to your server. If you'd like you can also enhance your server to have authentication functionality and advanced queries. However, if you pick this option you only need to get through the "Connecting the Server and Database with Prisma Client" section
         * Before you dive in you may want to review [this material](https://www.howtographql.com/basics/0-introduction/) only go until the "Big Picture (Architecture) section. Its not required but will give context you may find helpful during the project
         * Some tips for this project:
@@ -58,6 +59,7 @@ Enough reading! Time to make some stuff!
             * when it tells you to open a file, just open it in vsCode. To make it easier just open the API_Module file as a window in vsCode so you can navigate between files you need. Also DON'T FORGET TO SAVE A FILE before you try running it
         * **Required work to be uploaded to your github repository:**
             * The entire file structure of your GraphQL project (should be called "hackernews-node"), inclusive of the server and database files
+            * Screenshot of the Link database view within Prisma Studio
 
 ## Assignments: Challenge
 If you have additional time or you want to come back to later to enhance your final project, feel free to tackle this challenge project! 
