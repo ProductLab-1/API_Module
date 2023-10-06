@@ -42,7 +42,7 @@ Enough reading! Time to make some stuff!
         2. Assignment: giph upload
             * upload a screenshot of the address of your giph upload. The filename in your repo should be "giph_postman_screenshot_yourname"
 
-3. Now its time to build your own APIs and databases. There are one of two options you can choose. 
+3. Now its time to build your own APIs and databases. There are one of two options you can choose. (Only do one!)
     * Option 1: [Build and query your own non-relational database](https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project)
         * Once you complete setting up your Strapi db experiment with some REST API queries. Review the possible queries [here](https://docs.strapi.io/dev-docs/api/rest)
         * **Required work to be uploaded to your github repository:** 
@@ -52,8 +52,12 @@ Enough reading! Time to make some stuff!
     * Challenge Option: [Build a full stack GraphQL solution](https://www.howtographql.com/graphql-js/0-introduction/)
         * This tutorial will walk you through how to setup graphQL APIs by building your own server. You'll also have the opportunity to spin up a database and connect it to your server. If you'd like you can also enhance your server to have authentication functionality and advanced queries. However, if you pick this option you only need to get through the "Connecting the Server and Database with Prisma Client" section
         * Before you dive in you may want to review [this material](https://www.howtographql.com/basics/0-introduction/) only go until the "Big Picture (Architecture) section. Its not required but will give context you may find helpful during the project
+        * Some tips for this project:
+            * when following the instructions on specific commands to put in your terminal pay attention to the text directly above the grey box where the commands are. It is telling you what file you should be in before you initiate the command. [For example](image.png) here you should be in the hackernews-node file. If you try this command in a different file, you'll get an error!
+            * when you download appolo-server and graphql you may get a response about packages needing funding or vulnerabilities. Ignore them, its not important for us
+            * when it tells you to open a file, just open it in vsCode. To make it easier just open the API_Module file as a window in vsCode so you can navigate between files you need. Also DON'T FORGET TO SAVE A FILE before you try running it
         * **Required work to be uploaded to your github repository:**
-            * The entire file structure of your GraphQL project, inclusive of the server and database files
+            * The entire file structure of your GraphQL project (should be called "hackernews-node"), inclusive of the server and database files
 
 ## Assignments: Challenge
 If you have additional time or you want to come back to later to enhance your final project, feel free to tackle this challenge project! 
