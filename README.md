@@ -41,6 +41,9 @@ Enough reading! Time to make some stuff!
             * upload a screenshot of your successful DELETE request on Postman. The filename in your repo should be "DELETE_postman_screenshot_yourname"
         2. Assignment: giph upload
             * upload a screenshot of the address of your giph upload. The filename in your repo should be "giph_postman_screenshot_yourname"
+        3. Query an API from [this list](https://www.postman.com/explore)
+            * review the schema of the APIs on this postman site. Pick one and then run a request in postman. Include a screenshot of your request
+            * the filename in your repo should be "realworld_api_request_yourname"
 
 3. Now its time to build your own APIs and databases. There are one of two options you can choose. (Only do one!)
     * Option 1: [Build and query your own non-relational database](https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project)
@@ -61,20 +64,24 @@ Enough reading! Time to make some stuff!
             * The entire file structure of your GraphQL project (should be called "hackernews-node"), inclusive of the server and database files
             * Screenshot of the Link database view within Prisma Studio
 
-## Assignments: Challenge
-If you have additional time or you want to come back to later to enhance your final project, feel free to tackle this challenge project! 
+## Add ons
+Want to learn more? Check out these additional learning resources
 
-1. [An introduction to building with MongoDB](https://www.mongodb.com/docs/guides/)
-    * You worked with relational databases while learning SQL. Now you have the opportunity to build and query a non-relational database. This project is doable and will help you understand what a developer experiences when working with non-relational databases like MongoDB. 
+1. [A deeper dive into graphQL queries](https://graphql.org/learn/queries/)
+
+2. [A lecture on API Product Management](https://www.youtube.com/watch?v=9I-uCjhCRSI)
+
+3. [A deeper dive into promises and asynchronouse code in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
 
 ## Assignment Format 
 At the end of the week we expect your Github repo to have the following files: 
 
-1. store_db_yourname.sql
-2. data_dig_yourname.sql 
-3. famous_people_yourname.sql
-4. library_data_model_yourname.pdf/doc
-    * the file type for this project does not matter, use whatever you prefer 
+1. DELETE_postman_screenshot_yourname.png
+2. giph_postman_screenshot_yourname.png
+3. realworld_api_request_yourname.png
+4. strapi or hackernews-node file structures
+    * one or the other
+5. prisma_studio_screenshot_yourname.png
 
 ## Troubleshooting
 
