@@ -1,5 +1,5 @@
 ## API Module
- Welcome to the API Module of ProductLab. Last week you learned about data storage and manipulation. This week you'll learn how to access that data via API. You'll start by getting familiar with Postman, a powerful development tool. Then you'll use your new postman skills to experiment with REST and graphQL APIs. Finally, as a challenge we encourage you to try build your own APIs! 
+ Welcome to the API Module of ProductLab. Last week you learned about data storage and manipulation. This week you'll learn how to access that data via API. You'll start by getting familiar with Postman, a powerful development tool. Then you'll use your new postman skills to experiment with REST and graphQL APIs. Finally, you'll be challenging yourself by building your APIs from scratch!
 
  ## Housekeeping
  Please watch this repo by selecting the "watch" button, which is directly above the bright green "Code" button. This will help us keep track of participation.
@@ -14,7 +14,7 @@
 1. [An introduction into APIs for Product Managers](https://medium.com/swlh/a-product-managers-guide-to-apis-c5fffff0e5e0) 
 
 2. [How to think through competing priorities in relation to APIs](https://www.linkedin.com/pulse/demystifying-apis-product-managers-erin-howell/)
-    * The begining of this article will repeat lots of what you covered in the previous article. Feel free to skim until you reach the section "What should Product Managers be thinking about when prioritising an API on their product roadmap?"
+    * The begining of this article will repeat a lot of what you covered in the previous article. Feel free to skim until you reach the section "What should Product Managers be thinking about when prioritising an API on their product roadmap?"
 
 3. [A quick introduction to Swagger](https://swagger.io/docs/specification/2-0/what-is-swagger/)
     * You'll learn more about Swagger during your hands on assignments but this is a good place to start
@@ -39,9 +39,9 @@ Enough reading! Time to make some stuff!
     * **Required work to be uploaded to your github repository:** 
         1. Assignment: DELETE
             * upload a screenshot of your successful DELETE request on Postman. The filename in your repo should be "DELETE_postman_screenshot_yourname"
-        2. Assignment: giph upload
-            * upload a screenshot of the address of your giph upload. The filename in your repo should be "giph_postman_screenshot_yourname"
-        3. Query an API from [this list](https://www.postman.com/explore)
+        2. Assignment: gif upload
+            * upload a screenshot of the address of your giph upload. The filename in your repo should be "gif_postman_screenshot_yourname"
+        3. Query a real world open API from [this list](https://www.postman.com/explore)
             * review the schema of the APIs on this postman site. Pick one and then run a request in postman. Include a screenshot of your request
             * the filename in your repo should be "realworld_api_request_yourname"
 
@@ -57,9 +57,13 @@ Enough reading! Time to make some stuff!
         * This tutorial will walk you through how to setup graphQL APIs by building your own server. You'll also have the opportunity to spin up a database and connect it to your server. If you'd like you can also enhance your server to have authentication functionality and advanced queries. However, if you pick this option you only need to get through the "Connecting the Server and Database with Prisma Client" section
         * Before you dive in you may want to review [this material](https://www.howtographql.com/basics/0-introduction/) only go until the "Big Picture (Architecture) section. Its not required but will give context you may find helpful during the project
         * Some tips for this project:
-            * when following the instructions on specific commands to put in your terminal pay attention to the text directly above the grey box where the commands are. It is telling you what file you should be in before you initiate the command. [For example](image.png) here you should be in the hackernews-node file. If you try this command in a different file, you'll get an error!
-            * when you download appolo-server and graphql you may get a response about packages needing funding or vulnerabilities. Ignore them, its not important for us
-            * when it tells you to open a file, just open it in vsCode. To make it easier just open the API_Module file as a window in vsCode so you can navigate between files you need. Also DON'T FORGET TO SAVE A FILE before you try running it
+            * When following the instructions on specific commands to put in your terminal pay attention to the text directly above the grey box where the commands are. It is telling you what file you should be in before you initiate the command. [For example](image.png) here you should be in the hackernews-node file. If you try this command in a different file, you'll get an error!
+            * When you download apollo-server and graphql you may get a response about packages needing funding or vulnerabilities. Ignore them, its not important for us
+            * When it tells you to open a file, just open it in vsCode. To make it easier just open the API_Module file as a window in vsCode so you can navigate between the files you need. Also DON'T FORGET TO SAVE A FILE before you try running it
+
+        * Challenge: 
+            * Continue through the tutorial to add authentication and other features. 
+            * Can you refactor the project to store different information. Links are great, but what if you re-built this project to keep track of animals in the NYC Zoo, or players in your fantasy football league? 
         * **Required work to be uploaded to your github repository:**
             * The entire file structure of your GraphQL project (should be called "hackernews-node"), inclusive of the server and database files
             * Screenshot of the Link database view within Prisma Studio
