@@ -85,6 +85,7 @@ At the end of the week we expect your Github repo to have the following files:
 3. realworld_api_request_yourname.png
 4. strapi or hackernews-node file structures
     * one or the other
+    * either screenshots of Postman (strapi project) or screenshots of database view in prisma (graphQL project)
 5. prisma_studio_screenshot_yourname.png
 
 ## Troubleshooting
